@@ -16,13 +16,39 @@
 
 
 
+<div class="container_24" id="container">
+	
+<header>
+<div id="logo"></div>
+</header>
+	
+<div class="clear"></div>	
+
+<div class="container_24 grid_24">	
+	<div class="slide">
+		<img width="950px" height="210px" src="<?=base_url()?>images/template/custom/ramsey/slides/slide1.jpg"/>	
+	</div>
+</div>
+
+	
+<div class="maincontent">
+	<div class="container_24 grid_7">
+	<?=$this->load->view('template/custom/ramsey/left_menu')?>
+		</div>
+		
+	<div class="container_24 grid_17">
+		
+		</div>	 
+</div>
+
+<div class="clear"></div>	
+<footer>
+footer
+</footer>
+</div>
 
 
  
-    <footer>
-footer
-    </footer>
-  </div> 
 
 <!--! end of #container -->
 <?=$this->load->view('template/custom/ramsey/footer')?>

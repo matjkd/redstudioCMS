@@ -231,3 +231,27 @@ jQuery.fn.pngFix = function(settings) {
 		$("button, input:submit").button();
 		
 		});
+		
+//awesome left menu
+	$(function() {
+		var fadedelay = 100;
+	    $('.leftmenu li a').hover(function () {
+	        $(this).parent().animate({
+					backgroundColor: "#807e8e",
+					color: "#fff"
+					
+				}, fadedelay );
+			
+	    },
+	    function () {
+	        $(this).parent().animate({
+					backgroundColor: "#bdc3cc",
+					color: "#fff"
+					
+				}, fadedelay );
+			
+	    });
+	     
+	 });
+	 
+

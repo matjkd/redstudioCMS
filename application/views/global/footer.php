@@ -7,9 +7,7 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="<?=base_url()?>js/libs/jquery-1.5.0.js"%3E%3C/script%3E'))</script>
   
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
- <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=<?=$maps_api?>" type="text/javascript"></script>
 
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
 
   <!-- scripts concatenated and minified via ant build script-->
     <script src="<?=base_url()?>js/wymeditor/jquery.wymeditor.min.js"></script>
@@ -39,3 +37,7 @@
    })(document, 'script');
   </script>
   -->
+  
+ <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=<?=$maps_api?>" type="text/javascript"></script>
+
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 

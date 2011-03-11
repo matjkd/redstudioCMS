@@ -1,3 +1,8 @@
+body {
+background: url('/images/template/custom/ramsey/background.jpg') repeat-x;
+
+}
+
 h1 {
   font-family: 'Raleway', serif;
   font-size: 20px;
@@ -28,31 +33,59 @@ padding-top:10px;
 padding-bottom:10px;
 
 }
-header {
-background: url('/images/template/headerback.jpg') repeat-x;
-height:320px;
-position:relative;
+
+#container {
+margin-top:20px;
+width:960px;
+
+background:#ffffff;
+-moz-box-shadow: 2px 3px 7px #191919;
+-webkit-box-shadow: 2px 3px 7px #191919;
+box-shadow: 2px 3px 7px #191919;
+
 }
 
 .maincontent {
 padding-top:20px;
 padding-bottom:10px;
+
 }
 footer {
-background:#444444;
-color:#bbbbbb;
+background:#807e8e;
+color:#ffffff;
+height:80px;
 }
 #logo {
 float:left;
 display:block;
-
-height:75px;
-width:346px;
-position:absolute;
-top: 50px;
+background: url('/images/template/custom/ramsey/logo.png') no-repeat;
+height:53px;
+width:250px;
+position:relative;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:10px;
 }
+.slide {
+width:950px;
+height:210px;
+margin-bottom:5px;
+}
+.leftmenu li {
+background:#bdc3cc;
+margin-bottom:5px;
+padding:5px;
+list-style: none;
+}
+.leftmenu li a:hover{
 
 
+
+}
+.leftmenu ul {
+margin-left:0px;
+
+}
 #top_menu {
 background: #424242;
 color:#ffffff;
