@@ -34,7 +34,17 @@ class Welcome extends MY_Controller {
 		$data['section2'] = 'global/links';
 		
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 	function main()
 	{
