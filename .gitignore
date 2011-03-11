@@ -1,0 +1,6 @@
+application/config/database.php
+application/config/config.php
+application/config/postmark.php
+.settings/
+images/template/custom/
+css/custom/

@@ -1,0 +1,30 @@
+[23-Nov-2010 15:08:25] PHP Fatal error:  Class 'MY_Controller' not found in /home/sadler/public_html/system/application/controllers/welcome.php on line 3
+[23-Nov-2010 15:45:44] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:46:10] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:46:13] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:46:14] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:46:15] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:46:43] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:47:33] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:47:36] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:47:38] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:49:35] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:57:15] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[23-Nov-2010 15:58:58] PHP Fatal error:  Call to a member function where() on a non-object in /home/sadler/public_html/system/application/models/admin_model.php on line 13
+[24-Nov-2010 15:10:08] PHP Fatal error:  Call to a member function get_content() on a non-object in /home/sadler/public_html/system/application/controllers/welcome.php on line 22
+[24-Nov-2010 15:18:40] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/sadler/public_html/system/application/views/content/main.php on line 5
+[24-Nov-2010 15:18:40] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sadler/public_html/system/application/views/content/main.php on line 5
+[24-Nov-2010 15:18:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sadler/public_html/system/application/views/content/main.php on line 5
+[25-Nov-2010 10:16:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/sadler/public_html/system/application/views/flash/turkeyscore.php on line 45
+[25-Nov-2010 10:51:07] PHP Parse error:  syntax error, unexpected '}' in /home/sadler/public_html/system/application/controllers/flashgame.php on line 23
+[25-Nov-2010 10:51:20] PHP Parse error:  syntax error, unexpected '=' in /home/sadler/public_html/system/application/controllers/flashgame.php on line 24
+[25-Nov-2010 10:51:23] PHP Parse error:  syntax error, unexpected '=' in /home/sadler/public_html/system/application/controllers/flashgame.php on line 24
+[25-Nov-2010 10:51:55] PHP Parse error:  syntax error, unexpected T_IS_SMALLER_OR_EQUAL in /home/sadler/public_html/system/application/controllers/flashgame.php on line 24
+[25-Nov-2010 10:59:02] PHP Parse error:  syntax error, unexpected ')' in /home/sadler/public_html/system/application/views/flash/turkeyscore.php on line 20
+[25-Nov-2010 11:45:10] PHP Parse error:  syntax error, unexpected '}' in /home/sadler/public_html/system/application/controllers/flashgame.php on line 9
+[25-Nov-2010 12:00:31] PHP Parse error:  syntax error, unexpected T_IF in /home/sadler/public_html/system/application/models/game_model.php on line 32
+[26-Nov-2010 09:47:07] PHP Fatal error:  Call to undefined method Content_model::get_news() in /home/sadler/public_html/system/application/controllers/news.php on line 28
+[26-Nov-2010 13:40:36] PHP Parse error:  syntax error, unexpected '}' in /home/sadler/public_html/system/application/views/global/breadcrumb.php on line 12
+[26-Nov-2010 15:18:11] PHP Fatal error:  Call to a member function latest_news() on a non-object in /home/sadler/public_html/system/application/controllers/flashgame.php on line 14
+[26-Nov-2010 15:18:17] PHP Fatal error:  Call to a member function latest_news() on a non-object in /home/sadler/public_html/system/application/controllers/flashgame.php on line 14
+[26-Nov-2010 15:18:25] PHP Fatal error:  Call to a member function latest_news() on a non-object in /home/sadler/public_html/system/application/controllers/flashgame.php on line 14
