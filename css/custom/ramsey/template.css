@@ -57,6 +57,9 @@ height:20px;
 padding:60px 5px 0 5px;
 
 }
+footer a, a:visited {
+color:#ffffff;
+}
 #logo {
 float:left;
 display:block;
