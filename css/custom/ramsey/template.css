@@ -48,12 +48,14 @@ box-shadow: 2px 3px 7px #191919;
 .maincontent {
 padding-top:20px;
 padding-bottom:10px;
-
+float:left;
 }
 footer {
 background:#807e8e;
 color:#ffffff;
-height:80px;
+height:20px;
+padding:60px 5px 0 5px;
+
 }
 #logo {
 float:left;
@@ -77,13 +79,13 @@ margin-bottom:5px;
 padding:5px;
 list-style: none;
 }
-.leftmenu li a:hover{
 
-
-
-}
 .leftmenu ul {
 margin-left:0px;
+
+}
+.crest {
+padding-bottom:10px;
 
 }
 #top_menu {

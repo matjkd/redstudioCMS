@@ -12,7 +12,7 @@
 
 </head>
 
-<body onload="initialize()" onunload="GUnload()">
+<body>
 
 
 
@@ -34,16 +34,21 @@
 <div class="maincontent">
 	<div class="container_24 grid_7">
 	<?=$this->load->view('template/custom/ramsey/left_menu')?>
-		</div>
+	
+	<?=$this->load->view('template/custom/ramsey/crest')?>	
+	
+	</div>
 		
 	<div class="container_24 grid_17">
+		<?=$this->load->view('global/alert')?>
+		<?=$this->load->view($main_content)?>
 		
 		</div>	 
 </div>
 
 <div class="clear"></div>	
 <footer>
-footer
+	<?=$this->load->view('template/custom/ramsey/sitefooter')?>
 </footer>
 </div>
 

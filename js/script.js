@@ -189,43 +189,7 @@ jQuery.fn.pngFix = function(settings) {
 
 })(jQuery);
 
-//map
 
-	
-	var latval = $('#lat').text();
-	var longval = $('#long').text();;
-	var nash = new google.maps.LatLng(latval,longval);
-	var parliament = new google.maps.LatLng(latval,longval);
-	var marker;
-	var map;
- 
-  function initialize() {
-    var mapOptions = {
-      zoom: 12,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      center: nash
-    };
- 
-    map = new google.maps.Map(document.getElementById("map_canvas"),
-            mapOptions);
-          
-    marker = new google.maps.Marker({
-      map:map,
-      draggable:true,
-      animation: google.maps.Animation.DROP,
-      position: parliament
-    });
-    google.maps.event.addListener(marker, 'click', toggleBounce);
-  }
- 
-  function toggleBounce() {
- 
-    if (marker.getAnimation() != null) {
-      marker.setAnimation(null);
-    } else {
-      marker.setAnimation(google.maps.Animation.BOUNCE);
-    }
-  }
 //jquery ui buttons
 	$(function() {
 		$("button, input:submit").button();
@@ -240,7 +204,7 @@ jQuery.fn.pngFix = function(settings) {
 					backgroundColor: "#807e8e",
 					color: "#fff"
 					
-				}, fadedelay );
+				}, 100 );
 			
 	    },
 	    function () {
@@ -248,10 +212,8 @@ jQuery.fn.pngFix = function(settings) {
 					backgroundColor: "#bdc3cc",
 					color: "#fff"
 					
-				}, fadedelay );
+				}, 100 );
 			
 	    });
 	     
 	 });
-	 
-

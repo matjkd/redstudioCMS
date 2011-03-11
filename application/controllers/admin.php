@@ -29,7 +29,16 @@ class Admin extends MY_Controller {
 		$data['main'] = "pages/dynamic";
 		$data['edit'] = "admin/edit/$id";
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 		
 	}
 	
@@ -47,7 +56,16 @@ class Admin extends MY_Controller {
 		
 	
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 
 function edit_product()
@@ -63,7 +81,16 @@ function edit_product()
 		
 			
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 	function edit_content()
 	{
@@ -88,7 +115,16 @@ function create_news()
 		$data['menu'] =	$this->content_model->get_menus();
 		$data['news'] = $this->news_model->list_news();
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 function editnews()
 	{
@@ -101,7 +137,16 @@ function editnews()
 		$data['main'] = "admin/edit_news";
 		$data['menu'] =	$this->content_model->get_menus();
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 function edit_news()
 	{
@@ -133,7 +178,16 @@ function editpro()
 		$data['assigned_practices'] = $this->professionals_model->assigned_practice_areas($id);
 		
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 function edit_pro()
 	{
@@ -152,7 +206,16 @@ function edit_practice()
 		$data['main'] = "admin/edit_practice";
 		$data['menu'] =	$this->content_model->get_menus();
 		$this->load->vars($data);
-		$this->load->view('template/main');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 function edit_practice_submit()
 	{
@@ -224,7 +287,16 @@ function submit_news()
 			
 	
 		$this->load->vars($data);
-		$this->load->view('template');
+		//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 	function assign_practice()
 	{

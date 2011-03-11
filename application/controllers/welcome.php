@@ -77,7 +77,16 @@ class Welcome extends MY_Controller {
 		
 		$data['slideshow'] = 'header/slideshow';	
 		$this->load->vars($data);
-		$this->load->view('template/main');
+			//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 		
 	}
 	
@@ -90,11 +99,20 @@ class Welcome extends MY_Controller {
 		$id = 'login';
 		$data['content'] =	$this->content_model->get_content($id);
 		$data['main_content'] = "user/login_form";
-		$data['title'] = "Login to Gamasco";
+		$data['title'] = "Login to ".$this->config_company_name."";
 		
 		$data['page'] = "login";
 		$this->load->vars($data);
-		$this->load->view('template/main');
+			//if theme is set load that template, otherwise load original template
+		if($this->config_theme == NULL)
+			{
+				$this->load->view('template/main');
+			}
+		else
+			{
+				$theme = $this->config_theme;
+				$this->load->view('template/custom/'.$theme.'/main');	
+			}
 	}
 }
 

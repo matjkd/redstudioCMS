@@ -64,7 +64,7 @@ class Email extends My_Controller {
 					$this->postmark->cc('mat@redstudio.co.uk');
 					
 					
-					$this->postmark->subject(''.$config_company_name.'Contact Form');
+					$this->postmark->subject(''.$config_company_name.' Contact Form');
 					$this->postmark->message_html("The contact form has been filled in
 					
 					<br/>
