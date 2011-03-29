@@ -217,3 +217,5 @@ jQuery.fn.pngFix = function(settings) {
 	    });
 	     
 	 });
+
+
