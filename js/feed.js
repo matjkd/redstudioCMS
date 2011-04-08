@@ -15,7 +15,7 @@ function loadfeed() {
   };
 
   new GFdynamicFeedControl(feeds, 'feedControl', options);
-  document.getElementById('feedControl').style.width = "650px";
+  document.getElementById('feedControl');
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadfeed);

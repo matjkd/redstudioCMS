@@ -18,14 +18,20 @@
 
 <div class="container_24" id="container">
 	
-<header>
+<div class="header">
+	
 <div id="logo"></div>
-</header>
+</div>
 	
 <div class="clear"></div>	
 
 <div class="container_24 grid_24">	
 	<div class="slide">
+		<div id="menutop">
+			<div id="menutop_text">
+			<?=$this->load->view('global/menu')?>
+			</div>
+		</div>
 		<img width="950px" height="210px" src="<?=base_url()?>images/template/custom/ramsey/slides/slide1.jpg"/>	
 	</div>
 </div>
@@ -33,7 +39,6 @@
 	
 <div class="maincontent">
 	<div class="container_24 grid_7">
-	<?=$this->load->view('template/custom/ramsey/left_menu')?>
 	
 	<?=$this->load->view('template/custom/ramsey/crest')?>	
 	
