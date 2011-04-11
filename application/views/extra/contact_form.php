@@ -16,8 +16,13 @@ Enter the word you see below<br/>
 
 
 
-<input type="text" name="captcha" value="" /><?=form_label($captcha['image'])?>
+<input type="text" name="captcha" value="" /><br/><br/>
+
+
+<?=form_label($captcha['image'])?>
+
 </div>
+
 	<?=form_hidden('ip_address', $this->input->ip_address())?>
 	<?=form_hidden('time', $captcha['time'])?>
 <div id="contact_submit"><?=form_submit('submit', 'Submit')?></div><br/>

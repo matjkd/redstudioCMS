@@ -2,7 +2,7 @@
 function loadfeed() {
   var feeds = [
     {
-      title: 'Legal News',
+      title: 'Provided by Kenneth Elliott &amp; Rowe',
       url: 'http://www.ker.co.uk/newsfeed?format=feed&type=atom'
     }
   ];
@@ -10,7 +10,7 @@ function loadfeed() {
   var options = {
     stacked : true,
     horizontal : false,
-    title : "Kenneth Elliott & Rowe",
+    title : "Legal News",
     numResults : 8
   };
 

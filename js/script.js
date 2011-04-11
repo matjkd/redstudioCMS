@@ -196,26 +196,25 @@ jQuery.fn.pngFix = function(settings) {
 		
 		});
 		
-//awesome left menu
-	$(function() {
+// top menu fader
+ 	$(function() {
 		var fadedelay = 100;
-	    $('.leftmenu li a').hover(function () {
-	        $(this).parent().animate({
-					backgroundColor: "#807e8e",
-					color: "#fff"
+	    $('#top_menu li a').hover(function () {
+	        $(this).animate({
+					
+					color: "#cccccc"
 					
 				}, 100 );
 			
 	    },
 	    function () {
-	        $(this).parent().animate({
-					backgroundColor: "#bdc3cc",
-					color: "#fff"
+	        $(this).animate({
+					
+					color: "#ffffff"
 					
 				}, 100 );
 			
 	    });
 	     
 	 });
-
 

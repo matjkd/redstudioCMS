@@ -1,4 +1,4 @@
-<div class="crest" align="center">
-		<a href="http://www.thenotariessociety.org.uk/"><img src="<?=base_url()?>images/template/custom/ramsey/society.gif"/></a><br/>
-		Member of the Notaries Society
-		</div>
+<div class="crest" align="right">
+		<a href="http://www.thenotariessociety.org.uk/"><img src="<?=base_url()?>images/template/custom/ramsey/notaries_society.png"/></a><br/>
+		
+</div>

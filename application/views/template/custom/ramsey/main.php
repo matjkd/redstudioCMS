@@ -29,7 +29,9 @@
 	<div class="slide">
 		<div id="menutop">
 			<div id="menutop_text">
+			<div id="top_menu">
 			<?=$this->load->view('global/menu')?>
+			</div>
 			</div>
 		</div>
 		<img width="950px" height="210px" src="<?=base_url()?>images/template/custom/ramsey/slides/slide1.jpg"/>	
@@ -38,23 +40,28 @@
 
 	
 <div class="maincontent">
-	<div class="container_24 grid_7">
 	
-	<?=$this->load->view('template/custom/ramsey/crest')?>	
-	
-	</div>
-		
-	<div class="container_24 grid_17">
+	<div class="container_24 grid_16">
+		<div class="main_body">
 		<?=$this->load->view('global/alert')?>
 		<?=$this->load->view($main_content)?>
+		</div>
+	</div>	 
+	
+	
+	<div class="container_24 grid_8">
+	<div class="main_body">
+		<?=$this->load->view('template/custom/ramsey/google_feed')?>
+	</div>
+	</div>
 		
-		</div>	 
+	
 </div>
 
 <div class="clear"></div>	
-<footer>
+<div class="footer">
 	<?=$this->load->view('template/custom/ramsey/sitefooter')?>
-</footer>
+</div>
 </div>
 
 
